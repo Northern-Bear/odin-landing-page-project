@@ -151,3 +151,39 @@ h1 {
     font-weight: bold;
     font-size: 24px;
 }
+
+.cta-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+}
+.cta-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 2rem 8rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: #E5E7EB;
+}
+
+.cta-header {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.cta-button {
+    color: #F9FAF8;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    border: #F9FAF8 solid .15rem;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #1d4ed8;
+}
